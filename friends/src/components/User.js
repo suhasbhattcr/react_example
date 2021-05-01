@@ -22,7 +22,7 @@ export default class User extends Component {
     this.getUserList();
   }
 
-  //Function to get the Customer Data from json
+  //Function to get the User Data from json
   getUserList() {
     axios.get("http://localhost:3200/v1/allUsers").then((response) => {
       this.setState({ userList: response.data });

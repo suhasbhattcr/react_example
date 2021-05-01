@@ -45,7 +45,7 @@ The Application Runs on **localhost:3000**
 
 #### Components
 
-1. **Customers** Component : This Component displays a list of users. This Component gets the data from a backend API /v1/allUsers
+1. **Users** Component : This Component displays a list of users. This Component gets the data from a backend API /v1/allUsers
 
 2. **UserDetails** Component : This Component Displays the details of the selected user with friend list. This Component gets its data from an API /v1/allfriends/:userid. This Component is the Child Component of *Users* Component
 
@@ -55,7 +55,7 @@ The Application Runs on **localhost:3000**
 
 #### URL
 
-The application has just one url /customerlist which ties to *Customers* Component
+The application has just one url /userslist which ties to *Users* Component
 
 ## Resources
 

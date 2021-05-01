@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Panel from "react-bootstrap/lib/Panel";
 import axios from "axios";
 
-//This Component is a child Component of Customers Component
+//This Component is a child Component of Users Component
 export default class UserDetails extends Component {
   constructor(props) {
     super(props);
